@@ -9,7 +9,7 @@ function date(){
 	let m = aujourdhui.getMonth()
 	let j = aujourdhui.getDay()
 	
-	alert('Nous sommes le '+ aujourdhui.getDate() + " " + jours[j] + " " + mois[m] + " " + aujourdhui.getFullYear());
+	alert('Nous sommes le '+ jours[j] + " " + aujourdhui.getDate() + " " + mois[m] + " " + aujourdhui.getFullYear());
 
 }
 
