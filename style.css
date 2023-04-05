@@ -1,0 +1,152 @@
+/* Couleurs */
+:root {
+  --fond: #F2E7E2;
+  --accent: #0071bc;
+  --texte-principal: #333;
+  --texte-secondaire: #666;
+}
+
+/* Style de base */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: var(--fond);
+  color: var(--texte-principal);
+}
+
+/* Entête */
+header {
+  background-color: var(--accent);
+  color: white;
+  padding: 20px;
+}
+h1 {
+  margin: 0;
+}
+
+/* Image */
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+/* Contenu */
+#general {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.texte {
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+h2 {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+h3, h4 {
+  font-size: 1em;
+  margin-top: 10px;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="number"] {
+  width: 60px;
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+p span {
+  font-weight: bold;
+  margin-left: 10px;
+}
+hr {
+  margin: 40px 0;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Formulaire */
+.bulletins {
+  margin-left: 20px;
+}
+#premiere {
+  margin-bottom: 40px;
+}
+ody {
+	font-family:arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#notes, #general {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+	margin-bottom: 1em;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+}
+
+#general .texte{
+	padding:2em;
+}
+
+.bulletins, .e_t{
+	display: flex;
+	flex-direction: column;
+	margin: 0.5em 0;
+	padding: 1em 2em;
+	justify-content: space-evenly;
+	border-radius: 1em;
+}
+
+.bulletins {
+	background-color: #4EB8FF;
+}
+
+.e_t {
+	background-color: #e0e0ff;
+}
+
+
+#premiere, #terminale  {
+	margin: 0 4em;
+	background-color: #e0e0e0;
+	padding:0 2em;
+	border-radius:2em;
+}
+
+input {
+	margin:0.5em;
+	width:5em;
+}
+
+button {
+	margin:0.5em;
+	padding:0.5em;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	background-color: #fff;
+	color: rgb(120,0,0);
+	border-radius: 0.5em;
+}
+
+button:hover{
+	color: #fff;
+	background-color: rgb(120,0,0);
+}
