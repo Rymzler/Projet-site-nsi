@@ -1,7 +1,7 @@
 /* Couleurs */
 :root {
-  --fond: #F2E7E2;
-  --accent: #0071bc;
+  --fond: #eee6d8;
+  --accent: #9ac8eb;
   --texte-principal: #333;
   --texte-secondaire: #666;
 }
@@ -115,11 +115,11 @@ img{
 }
 
 .bulletins {
-	background-color: #4EB8FF;
+	background-color: #9ac8eb;
 }
 
 .e_t {
-	background-color: #e0e0ff;
+	background-color: #e26b34;
 }
 
 
@@ -142,7 +142,7 @@ button {
 	font-weight: bold;
 	text-align: center;
 	background-color: #fff;
-	color: rgb(120,0,0);
+	color: black;
 	border-radius: 0.5em;
 }
 
